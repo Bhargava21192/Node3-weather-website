@@ -6,7 +6,7 @@ const request=require('request')
 const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
 
-//Directory paths
+//Directory path
 const directorypath=(path.join(__dirname,'../public'))
 const viewpath=(path.join(__dirname,'../templates/views'))
 const partialpath=(path.join(__dirname,'../templates/partials'))
